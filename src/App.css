@@ -1,5 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;900&display=swap");
+
 .App {
   text-align: center;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  height: 100%;
+}
+
+.Sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 20vw;
+  padding-left: 20px;
+  background-image: linear-gradient(to bottom, #5f00d8, #b200f1);
+}
+
+.LogoDiv {
+  max-height: 20vh;
+  height: 15%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.LogoDiv img {
+  margin: 10px;
+}
+.LogoDiv hr {
+  width: 90%;
+  border: 0.5px solid rgba(255, 255, 255, 0.5);
+}
+
+.OptionsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  max-height: 60vh;
+}
+
+.OptionsButton {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  padding-left: 10px;
+  text-decoration: none;
+  border: none;
+  background-image: none;
+  outline: none;
+  align-items: center;
+}
+.OptionsButton:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+.OptionsButton img {
+  margin: 0 10px 0 0;
+}
+
+.OptionsButton span {
+  font-family: "Roboto" sans-serif;
+  font-weight: 300;
+  color: #fff;
+}
+
+.LogOutDiv {
+  max-height: 20vh;
+  height: 15%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 .App-logo {
